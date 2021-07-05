@@ -101,7 +101,7 @@ getEle("btnThemNVPopup").addEventListener("click", function () {
   isValid &= validator.kiemTraEmail(
     emailNV,
     "tbEmail",
-    "Vui lòng nhập đúng định dạng<br></br> _không có dấu và các ký tự đặc biệt <br></br> _Email phải có từ 6 ký tự trở lên ,ví dụ: abc@gmail.com !"
+    "Vui lòng nhập đúng định dạng<br></br> _không có dấu và các ký tự đặc biệt <br></br> _Email phải có từ 6 ký tự trở lên và không có kí tự viết hoa ,ví dụ: abcdef@gmail.com !"
   );
 
   isValid &= validator.kiemTraMatKhau(
